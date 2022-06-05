@@ -13,7 +13,7 @@
 }
 body{
     background-image: url("background.jpn");
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 .nav{
@@ -31,17 +31,20 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     border-width: 1px;
-    border-color: aliceblue;
+    border-color: transparent;
     border-style: groove;
     text-decoration: none;
     margin: 20px;
     border-radius: 10px;
+    font-size: larger;
+    color: white;
+    background-color: skyblue;
 
 
 }
 .nav a button:hover{
-    color: white;
-    background-color: skyblue;
+    color: black;
+    background-color: lightgreen;
    
 }
 
@@ -71,19 +74,21 @@ body div.intro div#left h1#name{
     font-size: larger;
 }
 #hire button{
-    background: rgb(31, 225, 209);
+    background: skyblue;
+    color: white;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-color: antiquewhite;
-    border-radius: 10px;
+    border-color: transparent;
+    border-width: 0.3px;
+    border-radius: 20px;
     font-size: large;
 }
 #hire button:hover{
-    color: white;
-    background-color: skyblue;
-    border-radius: 40%;
+    color: black;
+    background-color: lightgreen;
+    border-radius: 22px;
     font-size: larger;
 }
 
@@ -120,13 +125,21 @@ h2.headings{
 a#cv button{
     text-decoration: none;
     font-size: large;
+    color: white;
+    background-color: skyblue;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 20px;
+    border-color: transparent;
 
 }
+a#cv button:hover{
+    color: black;
+    background-color: lightgreen;
+}
+
 .knowme .aboutMe{
     text-align: center;
     margin-left: auto;
@@ -195,6 +208,8 @@ input [type = text],select, textarea {
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 20px;
+    border-width: 0.2px;
+    border-color: transparent;
     
 }
 #phone{
@@ -205,6 +220,7 @@ input [type = text],select, textarea {
     width: 600px;
     padding: 10px;
     border-radius: 20px;
+    border-color: transparent;
 }
 
 div.container{
@@ -220,4 +236,23 @@ form{
 input [type=submit]{
     padding: 10px;
 }
+.contacts#getintouch p{
+    font-size: x-large;
+}
+#submit{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    background-color: skyblue;
+    border-width: 1px;
+}
 
+#submit:hover{
+   color: black;
+   background-color: lightgreen;
+}
