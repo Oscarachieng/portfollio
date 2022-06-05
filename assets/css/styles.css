@@ -108,3 +108,27 @@ button #cv {
     font-size: large;
 }
 
+/*styles the Services Section*/
+
+.service{
+    display: flex;
+    justify-content: space-around;
+}
+
+.service .webdev{
+    text-align: center;
+    font-size: larger;
+    width: 40%;
+    border: 1px;
+    border-style: groove;
+    border-color: gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+/*.service .webdev p{
+    width: 300px;
+    text-align: center;
+}*/
+
+
+
