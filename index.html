@@ -93,7 +93,7 @@
 
         </div>
         <div class="container">
-            <form action="" method="post">
+            <form action="" method="post" id="userInputForm">
                 <input type="text" id="name" name="name" placeholder="Your Full Name." required>
                 <div id="email">
                     <input type="text" id="email" name="email" placeholder="Your email." required>
@@ -101,11 +101,11 @@
                 </div>
                 <textarea id="message" name="message" placeholder="Write Your Message." style="height:100px"></textarea>
 
-                <input type="submit" value="Submit" id="submit">
+                <input type="submit" value="Submit" onsubmit="submit()" id="submit">
             </form>
         </div>
     </div>
-    </div>
+    </div> 
     </div>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="./portfollio.js"></script>
