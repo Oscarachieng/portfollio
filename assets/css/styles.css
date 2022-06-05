@@ -8,7 +8,7 @@
     width: 20%;
 }
 /*body{
-    background-image: url("./assets/images/background.jpg");
+    background-image: url("../assets/images/background.jpg");
 }*/
 
 .nav{
@@ -19,12 +19,13 @@
     padding-left: 400px;
 
 }
-.nav a{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-top: 5px;
+.nav a button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-width: 1px;
+    border-color: aliceblue;
     border-style: groove;
     text-decoration: none;
     margin: 20px;
@@ -40,16 +41,17 @@
     margin: 40px;
 
 }
-.intro #left{
+ .intro #left{
     width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-left: 60px;
     text-align: center;
-    font-size: X-large;
+    font-size: large;
 }
-.intro #left h1 #name{
+body div.intro div#left h1 #name{
     color: black;
+    text-align: start;
 }
 
 .intro #left .title{
@@ -69,7 +71,9 @@
 .intro .image{
    margin: auto;
     height: 400px;
+    /*width:20px;*/
     padding-top: 100px;
+    margin-left: 20px;
 }
 
 .intro .image #mypict{
@@ -90,13 +94,13 @@
    padding-top: 20px;
     
 }
-button #cv {
+a#cv button{
     text-decoration: none;
     font-size: large;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 20px;
 
 }
@@ -130,5 +134,64 @@ button #cv {
     text-align: center;
 }*/
 
+/*Styling the Form and Contact Section.*/
 
+
+.contacts h3, p{
+    text-align: center;
+}
+#contform {
+    display: flex;
+}
+
+#contform .socialConts{
+    width: 40%;
+}
+
+#contform .socialConts img{
+    height: 40px;
+    display: list-item;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input [type = text],select, textarea {
+    width: 600px;
+    border-radius: 50px;
+    border-width: 1px;
+    padding: 20px;
+    margin: auto;
+}
+/*.container form input [type = text] #name{
+    width: 200%;
+}*/
+
+#email, #phone {
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+#phone{
+    margin-left: 30px;
+}
+
+#name{
+    width: 600px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.container{
+    align-items: center;
+}
+div#email{
+    display: flex;
+    
+}
+form{
+    flex-direction: column;
+}
 
