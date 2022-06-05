@@ -159,9 +159,9 @@ a#cv button:hover{
     text-align: center;
     font-size: larger;
     width: 40%;
-    border: 1px;
+    border-width: 0.3px;
     border-style: groove;
-    border-color: gray;
+    border-color: lightcyan;
     border-radius: 20px;
     padding: 20px;
 }
