@@ -9,7 +9,7 @@ document.querySelector("#submit");
 document.addEventListener("submit", function (e) {
 
   e.preventDefault();
-  console.log(e)
+  //console.log(e)
 
 
 // An Array of objects to store our user input data
